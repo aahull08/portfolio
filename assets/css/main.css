@@ -278,12 +278,22 @@ input, select, textarea {
 				width: 100% !important;
 			}
 
+			span .image.fit{
+				padding-left: 3px;
+				padding-right: 3px;
+			}
+
 		}
 
 		@media screen and (max-width: 480px) {
 
 			.container {
 				max-width: calc(100% - 3em);
+			}
+
+			.image.fit{
+				padding-left: 3px;
+				padding-right: 3px;
 			}
 
 		}
@@ -3344,6 +3354,8 @@ input, select, textarea {
 
 			#one {
 				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
 			}
 
 		/* Two */
@@ -3351,7 +3363,19 @@ input, select, textarea {
 			#two {
 				text-align: center;
 			}
+		
+		/* Three */
 
+			#three{
+				text-align: center;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+		/* images */
+			.image.border img {
+				height: 100%;
+			}
 	}
 
 /* Small */
