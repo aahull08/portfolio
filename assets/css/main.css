@@ -2402,7 +2402,6 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
-				/* height: 40vh; */
 			}
 
 			.image.fit.border{
